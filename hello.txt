@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link ref="style" href="abc.txt">
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis inventore, sequi modi unde, architecto, doloribus vel obcaecati accusamus id ipsum eius magni eum doloremque esse fuga. Vel eius error assumenda explicabo numquam ipsa eveniet dignissimos nihil atque quis, commodi deserunt maxime quas iure laudantium adipisci non excepturi quo, maiores culpa.</p>
+    </div>
+    
+</body>
+</html>

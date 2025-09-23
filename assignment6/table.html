@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        var t = 2;
+        var e = 3;
+        var evens = "";
+        var odds = "";
+        for (var i = 1; i <= 10; i++) {
+            var result = t * i;
+            var resulte = e * i;
+            document.write(result + " " + resulte + "<br>");
+            if (result % 2 === 0) {
+                evens += result + " ";
+            } else {
+                odds += result + " ";
+            }
+            if (resulte % 2 === 0) {
+                evens += resulte + " ";
+            } else {
+                odds += resulte + " ";
+            }
+        }
+
+        // Print even and odd lists
+        document.write("<br><b>Even numbers:</b> " + evens + "<br>");
+        document.write("<b>Odd numbers:</b> " + odds);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

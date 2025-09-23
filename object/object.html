@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Object</title>
+</head>
+<body>
+    <p id="aa"></p>
+    <script>
+        const arr = [
+            ["Dhruv", 300],
+            ["Suryansh", 400],
+            ["Tejash", 1000],
+            ["Manik", 600],
+            ["Unnati", 700]
+        ];
+
+        let output = "";
+        for (let i = 0; i < arr.length; i++) {
+            output += arr[i][0] + " : " + arr[i][1] + "<br>";
+        }
+
+        document.getElementById("aa").innerHTML = output;
+
+        // Example with object
+        // const toy = {
+        //     toy1: "car",
+        //     toy2: "teddy",
+        //     toy3: 40
+        // };
+        // document.getElementById("aa").innerHTML = toy.toy1 + " " + toy.toy2 + " " + toy.toy3;
+    </script>
+</body>
+</html>
