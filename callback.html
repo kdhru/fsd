@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Callback Hell Example</title>
+</head>
+<body>
+    <script>
+        function getData(dataid, getNextData) {
+            setTimeout(() => {
+                console.log("data", dataid);
+                if (getNextData) {
+                    getNextData(); // ✅ call the next function
+                }
+            }, 2000);
+        }
+
+        // Nested callbacks (callback hell)
+        getData(1, () => {
+            getData(2, () => {
+                getData(3, () => {
+                    getData(4, () => {
+                        getData(5, () => {
+                            console.log("all data received");
+                        });
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
